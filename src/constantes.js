@@ -1,0 +1,70 @@
+export const ARRAY_PAISES = [
+  'af',
+  'al',
+  'ar',
+  'az',
+  'bg',
+  'ca',
+  'cz',
+  'da',
+  'de',
+  'el',
+  'en',
+  'eu',
+  'fa',
+  'fi',
+  'fr',
+  'gl',
+  'he',
+  'hi',
+  'hr',
+  'hu',
+  'id',
+  'it',
+  'ja',
+  'kr',
+  'la',
+  'lt',
+  'mk',
+  'no',
+  'nl',
+  'pl',
+  'pt',
+  'pt_br',
+  'ro',
+  'ru',
+  'sv',
+  'sk',
+  'sl',
+  'sp',
+  'es',
+  'sr',
+  'th',
+  'tr',
+  'ua',
+  'uk',
+  'vi',
+  'zh_cn',
+  'zh_tw',
+  'zu',
+];
+
+export const API_KEY = 'b102249a4c07cb019c88a50ccbe2c8db';
+
+export const BACKGROUND_CLIMA = [
+  {
+    clima: 'Clouds',
+    color:
+      'radial-gradient(circle, rgba(232,232,232,1) 0%, rgba(154,154,154,1) 100%)',
+  },
+  {
+    clima: 'Clear',
+    color:
+      'radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(35,195,255,1) 100%)',
+  },
+  {
+    clima: 'Rain',
+    color:
+      'radial-gradient(circle, rgba(164,207,255,1) 0%, rgba(0,0,0,1) 100%)',
+  },
+];
