@@ -13,11 +13,11 @@ const Formulario = ({ ubicacion, pais, obtenerDatos }) => {
   return (
     <div className='py-5'>
       <Form onSubmit={(event) => obtenerDatos(event)}>
-        <FormGroup>
+        <FormGroup className='my-2'>
           <FormLabel>Ingrese una ubicacion</FormLabel>
           <FormControl type='text' defaultValue={ubicacion} />
         </FormGroup>
-        <FormGroup>
+        <FormGroup className='my-3'>
           <FormLabel>Ingrese el país</FormLabel>
           <FormSelect defaultValue={pais}>
             {ARRAY_PAISES.map((pais) => (
